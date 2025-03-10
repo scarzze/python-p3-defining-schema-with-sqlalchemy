@@ -14,6 +14,8 @@ print("Database created successfully!")
 # Add roles
 role1 = Role(character_name="Scarzze")
 role2 = Role(character_name="Omello")
+role2 = Role(character_name="joy")
+
 
 session.add_all([role1, role2])
 session.commit()
